@@ -1,0 +1,64 @@
+.navbar {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  --bs-navbar-padding-y:0px !important; 
+}
+.nav-back {
+  background: #F0F8FF;
+  background-image: -webkit-linear-gradient(top, #F0F8FF, #cdddf9);
+  background-image: -moz-linear-gradient(top, #F0F8FF, #cdddf9);
+  background-image: -ms-linear-gradient(top, #F0F8FF, #cdddf9);
+  background-image: -o-linear-gradient(top, #F0F8FF, #cdddf9);
+  background-image: linear-gradient(to bottom, #F0F8FF, #cdddf9);
+}
+.navbar-brand {
+  color:#292929
+}
+.toast-on-map{
+  background: #F0F8FF !important;
+  color:#292929 !important;
+  position: absolute;
+  z-index: 400;
+  bottom: 100px;
+  left: 12px;
+}
+.modal-dialog{
+  max-width:69% !important;
+}
+
+#userList {
+  position: absolute;
+  top:45px;
+  left:-1px;
+  z-index:401;
+  background: #cdddf9;
+  background-image: linear-gradient(to bottom, #F0F8FF, #cdddf9);
+  min-width: 290px;
+  user-select: none;
+}
+#userList > #header {
+  min-height: 36px;
+  letter-spacing:4px;
+  text-align: right;
+  padding-right: 2px;
+  padding-top: 4px;
+}
+#userList > #header:hover {
+  text-shadow: 0px 3px 4px #999;
+}
+#userList > #userListusers {
+overflow:y-scroll;
+}
+#userList > #userListusers > div {
+  border: 1px solid #CCC;
+  background: #F0F8FF;
+  background-image: -webkit-linear-gradient(top, #F0F8FF, #cdddf9);
+  background-image: -moz-linear-gradient(top, #F0F8FF, #cdddf9);
+  background-image: -ms-linear-gradient(top, #F0F8FF, #cdddf9);
+  background-image: -o-linear-gradient(top, #F0F8FF, #cdd3f9);
+  background-image: linear-gradient(to bottom, #F0F8FF, #cdddf9);
+}
+
+.error-border {
+  border:1px solid red
+}

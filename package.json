@@ -1,0 +1,21 @@
+{
+  "name": "trakker-server",
+  "version": "1.0.0",
+  "description": "trakker node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "trakker",
+    "server",
+    "node"
+  ],
+  "author": "saud",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  }
+}
