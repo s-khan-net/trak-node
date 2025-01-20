@@ -22,9 +22,6 @@
   bottom: 100px;
   left: 12px;
 }
-.modal-dialog{
-  max-width:69% !important;
-}
 
 #userList {
   position: absolute;
